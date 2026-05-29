@@ -1,18 +1,13 @@
-﻿<svg width="1200" height="80" viewBox="0 0 1200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="1280" height="56" viewBox="0 0 1280 56" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFB84D" stop-opacity="0"/>
-      <stop offset="0.25" stop-color="#FFB84D"/>
-      <stop offset="0.5" stop-color="#60F2D6"/>
-      <stop offset="0.75" stop-color="#FFB84D"/>
-      <stop offset="1" stop-color="#60F2D6" stop-opacity="0"/>
+    <linearGradient id="g" x1="120" y1="28" x2="1160" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE4B8" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#FFE4B8" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#6FFFE9"/>
+      <stop offset="0.75" stop-color="#FFE4B8" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#FFE4B8" stop-opacity="0"/>
     </linearGradient>
-    <style>
-      @keyframes move { to { stroke-dashoffset: -300; } }
-      .dash { stroke-dasharray: 8 16; animation: move 7s linear infinite; }
-    </style>
   </defs>
-  <path d="M0 40 H1200" stroke="url(#line)" stroke-width="2" class="dash"/>
-  <circle cx="600" cy="40" r="7" fill="#60F2D6"/>
-  <circle cx="600" cy="40" r="18" stroke="#60F2D6" stroke-opacity="0.3"/>
+  <path d="M120 28H1160" stroke="url(#g)" stroke-width="2"/>
+  <circle cx="640" cy="28" r="5" fill="#6FFFE9"/>
 </svg>

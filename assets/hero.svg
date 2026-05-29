@@ -1,86 +1,91 @@
-﻿<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#050505"/>
-      <stop offset="0.38" stop-color="#101114"/>
-      <stop offset="0.72" stop-color="#10202A"/>
-      <stop offset="1" stop-color="#041317"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070503"/>
+      <stop offset="0.45" stop-color="#15100B"/>
+      <stop offset="1" stop-color="#24150A"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(910 92) rotate(142) scale(390 190)">
-      <stop stop-color="#60F2D6" stop-opacity="0.95"/>
-      <stop offset="0.45" stop-color="#60F2D6" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#60F2D6" stop-opacity="0"/>
+    <radialGradient id="cream" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 110) rotate(140) scale(520 280)">
+      <stop stop-color="#FFDFA3" stop-opacity="0.85"/>
+      <stop offset="0.35" stop-color="#B97932" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 338) rotate(-22) scale(360 180)">
-      <stop stop-color="#FFB84D" stop-opacity="0.9"/>
-      <stop offset="0.48" stop-color="#FFB84D" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#FFB84D" stop-opacity="0"/>
+    <radialGradient id="mint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(230 420) rotate(-24) scale(420 210)">
+      <stop stop-color="#6FFFE9" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#6FFFE9" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1"/>
+    <pattern id="grain" width="180" height="180" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="22" r="1" fill="#FFF2D2" fill-opacity="0.12"/>
+      <circle cx="84" cy="65" r="1.2" fill="#FFF2D2" fill-opacity="0.08"/>
+      <circle cx="134" cy="118" r="1" fill="#FFF2D2" fill-opacity="0.1"/>
+      <circle cx="42" cy="147" r="0.8" fill="#6FFFE9" fill-opacity="0.1"/>
     </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.5"/>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#000000" flood-opacity="0.55"/>
     </filter>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .title { font: 900 104px 'Trebuchet MS', 'Verdana', sans-serif; letter-spacing: -5px; }
-      .kicker { font: 700 18px 'Courier New', monospace; letter-spacing: 5px; }
-      .tag { font: 700 22px 'Courier New', monospace; letter-spacing: 1px; }
-      .small { font: 700 15px 'Courier New', monospace; letter-spacing: 2px; }
-      @keyframes floaty { 0%,100%{ transform: translateY(0px);} 50%{ transform: translateY(-14px);} }
-      @keyframes spin { from{ transform: rotate(0deg); transform-origin: 900px 210px;} to{ transform: rotate(360deg); transform-origin: 900px 210px;} }
-      @keyframes dash { to { stroke-dashoffset: -240; } }
-      @keyframes blink { 0%,45%{ opacity:1;} 46%,100%{ opacity:.25;} }
-      .float { animation: floaty 5.5s ease-in-out infinite; }
-      .spin { animation: spin 18s linear infinite; }
-      .dash { stroke-dasharray: 14 16; animation: dash 8s linear infinite; }
-      .blink { animation: blink 1.2s steps(2) infinite; }
+      .label { font: 800 18px 'Courier New', monospace; letter-spacing: 6px; }
+      .title { font: 900 122px 'Georgia', serif; letter-spacing: -6px; }
+      .sub { font: 700 26px 'Courier New', monospace; letter-spacing: 1px; }
+      .mini { font: 700 16px 'Courier New', monospace; letter-spacing: 2px; }
+      .chip { font: 800 15px 'Courier New', monospace; letter-spacing: 2px; }
+      @keyframes drift { 0%,100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(-12px) rotate(-1.4deg); } }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes shine { 0% { opacity: .15; transform: translateX(-80px); } 50% { opacity: .55; } 100% { opacity: .15; transform: translateX(80px); } }
+      .drift { animation: drift 6s ease-in-out infinite; transform-origin: 980px 270px; }
+      .orbit { animation: orbit 26s linear infinite; transform-origin: 980px 270px; }
+      .shine { animation: shine 4.5s ease-in-out infinite; }
     </style>
   </defs>
 
-  <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="34" fill="url(#grid)"/>
-  <rect width="1200" height="420" rx="34" fill="url(#glowA)"/>
-  <rect width="1200" height="420" rx="34" fill="url(#glowB)"/>
+  <rect width="1280" height="520" rx="38" fill="url(#bg)"/>
+  <rect width="1280" height="520" rx="38" fill="url(#cream)"/>
+  <rect width="1280" height="520" rx="38" fill="url(#mint)"/>
+  <rect width="1280" height="520" rx="38" fill="url(#grain)"/>
 
-  <path d="M65 309 C203 222 292 378 428 278 C547 190 652 204 762 246 C866 286 991 259 1134 110" stroke="#60F2D6" stroke-opacity="0.38" stroke-width="3" class="dash"/>
-  <path d="M72 325 C245 270 310 125 472 163 C633 200 697 353 850 293 C1000 235 1012 114 1138 88" stroke="#FFB84D" stroke-opacity="0.28" stroke-width="2" class="dash"/>
+  <path d="M76 414 C242 326 354 468 522 356 C695 241 818 354 960 282 C1082 220 1130 120 1208 90" stroke="#FFE4B8" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M80 438 C274 388 358 205 540 239 C714 272 762 432 944 363 C1085 309 1096 178 1202 144" stroke="#6FFFE9" stroke-opacity="0.15" stroke-width="2"/>
 
   <g filter="url(#shadow)">
-    <rect x="76" y="74" width="636" height="264" rx="32" fill="#0B0D10" fill-opacity="0.78" stroke="#FFFFFF" stroke-opacity="0.1"/>
-    <rect x="102" y="101" width="94" height="16" rx="8" fill="#60F2D6" fill-opacity="0.9"/>
-    <rect x="212" y="101" width="52" height="16" rx="8" fill="#FFB84D" fill-opacity="0.9"/>
-    <rect x="281" y="101" width="32" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.26"/>
-    <text x="104" y="172" fill="#F8FAFC" class="title">Cookie</text>
-    <text x="111" y="219" fill="#60F2D6" class="kicker">GITHUB PROFILE</text>
-    <text x="111" y="266" fill="#D6DEE8" class="tag">code / design / experiments</text>
-    <text x="111" y="302" fill="#FFB84D" class="small">github.com/NongGust</text>
-    <rect x="648" y="102" width="14" height="196" rx="7" fill="#60F2D6" class="blink"/>
-  </g>
-
-  <g class="float" filter="url(#softGlow)">
-    <circle cx="900" cy="210" r="112" fill="#060707" fill-opacity="0.48" stroke="#60F2D6" stroke-opacity="0.52" stroke-width="2"/>
-    <circle cx="900" cy="210" r="72" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFB84D" stroke-opacity="0.7" stroke-width="2"/>
-    <g class="spin">
-      <circle cx="1012" cy="210" r="8" fill="#60F2D6"/>
-      <circle cx="788" cy="210" r="6" fill="#FFB84D"/>
+    <rect x="70" y="78" width="710" height="354" rx="34" fill="#0D0905" fill-opacity="0.72" stroke="#FFE4B8" stroke-opacity="0.16"/>
+    <rect x="96" y="104" width="112" height="12" rx="6" fill="#FFE4B8"/>
+    <rect x="224" y="104" width="54" height="12" rx="6" fill="#6FFFE9" fill-opacity="0.85"/>
+    <text x="98" y="169" fill="#6FFFE9" class="label">GITHUB PROFILE</text>
+    <text x="94" y="286" fill="#FFF4DE" class="title">Cookie</text>
+    <text x="103" y="338" fill="#FFE4B8" class="sub">code · design · experiments</text>
+    <g transform="translate(104 372)">
+      <rect width="142" height="38" rx="19" fill="#FFF4DE" fill-opacity="0.1" stroke="#FFF4DE" stroke-opacity="0.16"/>
+      <text x="24" y="25" fill="#FFF4DE" class="chip">HTML</text>
+      <rect x="154" width="126" height="38" rx="19" fill="#FFF4DE" fill-opacity="0.1" stroke="#FFF4DE" stroke-opacity="0.16"/>
+      <text x="179" y="25" fill="#FFF4DE" class="chip">CSS</text>
+      <rect x="292" width="166" height="38" rx="19" fill="#FFF4DE" fill-opacity="0.1" stroke="#FFF4DE" stroke-opacity="0.16"/>
+      <text x="319" y="25" fill="#FFF4DE" class="chip">JAVASCRIPT</text>
+      <rect x="470" width="142" height="38" rx="19" fill="#FFF4DE" fill-opacity="0.1" stroke="#FFF4DE" stroke-opacity="0.16"/>
+      <text x="492" y="25" fill="#FFF4DE" class="chip">PYTHON</text>
     </g>
-    <path d="M848 212 C862 173 937 173 952 212 C939 254 861 254 848 212Z" fill="#F8FAFC" fill-opacity="0.9"/>
-    <circle cx="878" cy="210" r="9" fill="#050505"/>
-    <circle cx="924" cy="210" r="9" fill="#050505"/>
-    <path d="M884 247 C899 258 922 255 935 243" stroke="#050505" stroke-width="8" stroke-linecap="round"/>
-    <path d="M842 184 L814 160 M960 184 L990 158" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
   </g>
 
-  <g opacity="0.72">
-    <rect x="820" y="326" width="230" height="40" rx="20" fill="#0B0D10" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="849" y="352" fill="#F8FAFC" class="small">BUILDING IN PUBLIC</text>
+  <g class="drift" filter="url(#shadow)">
+    <circle cx="980" cy="270" r="132" fill="#C8843F"/>
+    <circle cx="980" cy="270" r="132" fill="#FFE4B8" fill-opacity="0.2"/>
+    <circle cx="930" cy="238" r="18" fill="#3B1F10"/>
+    <circle cx="1025" cy="230" r="15" fill="#3B1F10"/>
+    <circle cx="1008" cy="302" r="20" fill="#3B1F10"/>
+    <circle cx="942" cy="320" r="13" fill="#3B1F10"/>
+    <circle cx="1062" cy="276" r="12" fill="#3B1F10"/>
+    <path d="M910 180 C930 205 968 204 982 174 C1002 208 1044 206 1065 178" stroke="#FFE4B8" stroke-opacity="0.48" stroke-width="10" stroke-linecap="round"/>
+    <path d="M889 377 C939 405 1027 404 1075 369" stroke="#3B1F10" stroke-opacity="0.32" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="930" cy="194" rx="22" ry="10" fill="#FFF4DE" fill-opacity="0.22" class="shine"/>
   </g>
+
+  <g class="orbit" opacity="0.72">
+    <circle cx="1142" cy="270" r="6" fill="#6FFFE9" filter="url(#glow)"/>
+    <circle cx="818" cy="270" r="5" fill="#FFE4B8" filter="url(#glow)"/>
+  </g>
+
+  <text x="862" y="448" fill="#FFF4DE" fill-opacity="0.62" class="mini">github.com/NongGust</text>
 </svg>
