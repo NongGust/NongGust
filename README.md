@@ -1,142 +1,92 @@
 ﻿<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,45:7C3AED,100:06B6D4&text=Cookie&fontAlign=50&fontAlignY=38&fontSize=78&fontColor=FFFFFF&desc=Vibe%20Code%20Developer%20%E2%80%A2%20Builder%20%E2%80%A2%20Creative%20Tech%20Explorer&descAlign=50&descAlignY=58&animation=fadeIn" alt="Cookie profile banner" />
-
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&pause=900&color=38BDF8&center=true&vCenter=true&random=false&width=850&lines=Hey%2C+I'm+Cookie+%F0%9F%8D%AA;I+build+with+vibes%2C+curiosity%2C+and+code;Vibe+Code+is+my+playground;Turning+ideas+into+real+projects" alt="Typing intro" />
-
-  <br />
-
-  <img src="https://komarev.com/ghpvc/?username=NongGust&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/NongGust?style=for-the-badge&color=06b6d4&labelColor=0f172a&logo=github" alt="GitHub followers" />
-  <img src="https://img.shields.io/badge/Vibe%20Code-ON-ff69b4?style=for-the-badge&labelColor=0f172a" alt="Vibe Code" />
+  <img width="100%" src="./assets/hero.svg" alt="Cookie GitHub profile hero" />
 </div>
 
----
+<p align="center">
+  <a href="https://github.com/NongGust"><img src="https://img.shields.io/badge/@NongGust-0B0D10?style=for-the-badge&logo=github&logoColor=white&labelColor=0B0D10" alt="GitHub profile" /></a>
+  <img src="https://komarev.com/ghpvc/?username=NongGust&style=for-the-badge&color=60f2d6&label=VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/NongGust?style=for-the-badge&color=ffb84d&labelColor=0B0D10&logo=github&label=FOLLOWERS" alt="GitHub followers" />
+</p>
 
-## 🍪 About Cookie
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=24&duration=2600&pause=700&color=60F2D6&center=true&vCenter=true&width=720&lines=Building+small+ideas+into+real+projects;Clean+code.+Sharp+UI.+Fast+experiments.;Welcome+to+Cookie's+workspace." alt="Animated typing line" />
+</div>
 
-```txt
-Name       : Cookie
-Style      : Vibe Code Developer
-Focus      : Build first, learn fast, improve every version
-Mindset    : Creative, experimental, and always shipping
-Mission    : Turn ideas into clean, useful, and fun projects
-```
-
-I am a **Vibe Code** creator who loves building projects by mixing creativity, curiosity, and code.  
-I enjoy exploring new ideas, testing tools, and turning small concepts into real things.
-
----
-
-## ⚡ Current Mode
+<img width="100%" src="./assets/divider.svg" alt="Animated divider" />
 
 <div align="center">
 
-| 🔥 Build | 🧠 Learn | 🎨 Create | 🚀 Ship |
-| --- | --- | --- | --- |
-| Fast prototypes | New tech | Cool interfaces | Real projects |
+### Toolbox
 
-</div>
-
----
-
-## 🧰 Languages & Tools
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,react,nodejs,git,github,vscode&theme=dark" alt="Tech stack icons" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,react,nodejs,git,github,vscode&theme=dark" alt="Languages and tools" />
 
 <br /><br />
 
-![HTML5](https://img.shields.io/badge/HTML5-F97316?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-2563EB?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-FACC15?style=for-the-badge&logo=javascript&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-06B6D4?style=for-the-badge&logo=react&logoColor=111827)
-![Node.js](https://img.shields.io/badge/Node.js-16A34A?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-EA580C?style=for-the-badge&logo=git&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-0B0D10?style=for-the-badge&logo=html5&logoColor=FFB84D)
+![CSS3](https://img.shields.io/badge/CSS3-0B0D10?style=for-the-badge&logo=css3&logoColor=60F2D6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0B0D10?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-0B0D10?style=for-the-badge&logo=typescript&logoColor=60A5FA)
+![Python](https://img.shields.io/badge/Python-0B0D10?style=for-the-badge&logo=python&logoColor=FFB84D)
+![React](https://img.shields.io/badge/React-0B0D10?style=for-the-badge&logo=react&logoColor=60F2D6)
 
 </div>
 
-> The language card below updates from my public GitHub repositories automatically.
-
----
-
-## 📊 GitHub Activity
+<img width="100%" src="./assets/divider.svg" alt="Animated divider" />
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=NongGust&show_icons=true&theme=tokyonight&hide_border=true&border_radius=18&rank_icon=github&include_all_commits=true" alt="Cookie GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NongGust&layout=compact&theme=tokyonight&hide_border=true&border_radius=18&langs_count=10" alt="Cookie top languages" />
+
+### Stats
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=NongGust&show_icons=true&theme=transparent&hide_border=true&title_color=60F2D6&text_color=D6DEE8&icon_color=FFB84D&ring_color=60F2D6&border_radius=18&include_all_commits=true" alt="GitHub stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NongGust&layout=compact&theme=transparent&hide_border=true&title_color=60F2D6&text_color=D6DEE8&border_radius=18&langs_count=10" alt="Top languages" />
+
+<br /><br />
+
+<img width="86%" src="https://github-readme-streak-stats.herokuapp.com?user=NongGust&theme=dark&hide_border=true&border_radius=18&background=0B0D10&stroke=60F2D6&ring=FFB84D&fire=FFB84D&currStreakLabel=60F2D6&sideLabels=D6DEE8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8A94A6" alt="GitHub streak" />
+
+<br /><br />
+
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=NongGust&bg_color=0B0D10&color=D6DEE8&line=60F2D6&point=FFB84D&area=true&area_color=60F2D6&hide_border=true&radius=18&custom_title=Contribution%20Flow" alt="Contribution graph" />
+
 </div>
 
-<br />
+<img width="100%" src="./assets/divider.svg" alt="Animated divider" />
 
 <div align="center">
-  <img width="86%" src="https://github-readme-streak-stats.herokuapp.com?user=NongGust&theme=tokyonight&hide_border=true&border_radius=18" alt="Cookie GitHub streak" />
-</div>
 
-<br />
-
-<div align="center">
-  <img width="86%" src="https://github-readme-activity-graph.vercel.app/graph?username=NongGust&theme=tokyo-night&hide_border=true&radius=18&area=true&custom_title=Cookie's%20Contribution%20Graph" alt="Cookie contribution graph" />
-</div>
-
----
-
-## 🏆 Trophy Wall
-
-<div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=NongGust&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="Cookie GitHub trophies" />
-</div>
-
----
-
-## ✨ Featured Space
-
-<div align="center">
+### Showcase
 
 <table>
   <tr>
-    <td align="center" width="50%">
-      <h3>🚧 Next Project</h3>
-      <p>Cooking something creative.</p>
+    <td align="center" width="33%">
+      <h3>⚡ Experiments</h3>
+      <sub>quick builds and creative tests</sub>
     </td>
-    <td align="center" width="50%">
-      <h3>⚡ Vibe Lab</h3>
-      <p>Experiments, ideas, and rapid builds.</p>
+    <td align="center" width="33%">
+      <h3>🎛️ Interfaces</h3>
+      <sub>clean screens and playful details</sub>
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <h3>🎨 UI Playground</h3>
-      <p>Design-driven coding practice.</p>
-    </td>
-    <td align="center" width="50%">
-      <h3>🧠 Learning Log</h3>
-      <p>New tools, new stacks, new skills.</p>
+    <td align="center" width="33%">
+      <h3>🧪 Learning</h3>
+      <sub>new stacks, tools, and patterns</sub>
     </td>
   </tr>
 </table>
 
-</div>
+<br />
 
----
-
-## 🌐 Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-NongGust-181717?style=for-the-badge&logo=github)](https://github.com/NongGust)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=NongGust&theme=matrix&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" alt="GitHub trophies" />
 
 </div>
 
----
+<img width="100%" src="./assets/divider.svg" alt="Animated divider" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+  <a href="https://github.com/NongGust"><img src="https://img.shields.io/badge/GitHub-NongGust-0B0D10?style=for-the-badge&logo=github&logoColor=white&labelColor=0B0D10" alt="GitHub" /></a>
 </div>
 
+<br />
+
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:06B6D4,55:7C3AED,100:0F172A&section=footer" alt="Footer wave" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
 </div>
