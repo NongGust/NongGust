@@ -1,9 +1,9 @@
 <!-- Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0a2540,55:1d5fa3,100:FFD53D&text=NongGust&fontColor=FFD53D&fontSize=72&fontAlignY=36&desc=AI%20Developer%20%C2%B7%20Vibe%20Coder&descSize=20&descAlignY=58&animation=fadeIn" alt="NongGust — AI Developer · Vibe Coder" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0a2540,55:1d5fa3,100:FFD53D&text=NongGust&fontColor=FFD53D&fontSize=72&fontAlignY=36&desc=AI%20Developer%20%C2%B7%20Vibe%20Coder&descSize=20&descAlignY=58&animation=fadeIn" alt="NongGust, AI Developer · Vibe Coder" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=800&color=FFD53D&center=true&vCenter=true&width=560&lines=Vibe+coding+with+AI%2C+one+prompt+at+a+time;Idea+%E2%86%92+Prompt+%E2%86%92+Ship+%E2%86%92+Repeat;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Lua+%E2%80%A2+Go;Bello!+Welcome+to+my+GitHub" alt="Vibe coding with AI, one prompt at a time" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=800&color=FFD53D&center=true&vCenter=true&width=560&lines=AI+developer+in+Maha+Sarakham%2C+Thailand;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Lua+%E2%80%A2+Go;Bello!" alt="AI developer in Maha Sarakham, Thailand" />
 
 <br /><br />
 
@@ -17,22 +17,15 @@
 
 <br />
 
-## 🍌 About me
+## About me
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="62%" valign="middle">
 
-```ts
-const nonggust = {
-  role: "AI Developer · Vibe Coder",
-  location: "Maha Sarakham, TH 🇹🇭",
-  workflow: ["idea", "prompt", "ship", "repeat"],
-  stack: ["Next.js", "TypeScript", "Tailwind", "Lua", "Go"],
-  playing: "Palworld 🎮",
-  fuel: "🍌🍌🍌",
-};
-```
+I build things with AI coding tools, using Next.js, TypeScript and Tailwind, plus Lua and Go.
+
+Based in Maha Sarakham, Thailand. Currently playing Palworld. Runs on bananas 🍌
 
 </td>
 <td width="38%" align="center" valign="middle">
@@ -41,7 +34,7 @@ const nonggust = {
 </tr>
 </table>
 
-## 🤖 AI toolbox
+## AI tools
 
 <p>
 <a href="https://claude.ai"><img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" /></a>
@@ -50,7 +43,7 @@ const nonggust = {
 <a href="https://antigravity.google"><img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" /></a>
 </p>
 
-## 🧰 Tech stack
+## Tech stack
 
 <p>
 <img src="https://skillicons.dev/icons?i=ts,js,html,css,python,lua,go,php,react,nextjs,nodejs,tailwind,mysql,postgres,mongodb,docker,linux,git,vscode,figma&perline=10" alt="TypeScript, JavaScript, HTML, CSS, Python, Lua, Go, PHP, React, Next.js, Node.js, Tailwind, MySQL, PostgreSQL, MongoDB, Docker, Linux, Git, VS Code, Figma" />
@@ -61,7 +54,7 @@ const nonggust = {
 <img src="https://img.shields.io/badge/Roblox_Studio-00A2FF?style=flat-square&logo=robloxstudio&logoColor=white" alt="Roblox Studio" />
 </p>
 
-## 📊 Stats
+## Stats
 
 <div align="center">
 
